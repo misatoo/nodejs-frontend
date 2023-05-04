@@ -14,7 +14,7 @@ export default defineConfig({
   server: {
     proxy: {
       // 字符串简写写法：http://localhost:5173/api -> http://localhost:8000/api
-      "/api": "http://localhost:3000",
+      "/api": "http://10.211.55.4:8080",
     },
   },
   css: {
